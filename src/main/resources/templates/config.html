@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="_head"></head>
+<body>
+<div th:include="_topnav::topnav"></div>
+
+<div class="container">
+
+    <h4>Configuration & Environment Variables</h4>
+
+    <div class="starter-template">
+        <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr th:each="pair : ${kvpairs}">
+                <td th:text="${pair.key}"></td>
+                <td th:text="${pair.value}"></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<div th:include="_footer::footer"></div>
+
+</body>
+</html>

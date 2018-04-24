@@ -1,0 +1,12 @@
+pip-tools
+
+arrow
+azure
+docopt
+geopy
+Jinja2
+pydocumentdb
+pytest
+pytest-cov
+requests
+simplejson

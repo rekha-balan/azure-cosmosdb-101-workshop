@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="_head"></head>
+<body>
+<div th:include="_topnav::topnav"></div>
+
+<div class="container">
+
+    <h4>Insert</h4>
+    <h5 th:text="${dateNow}"></h5>
+
+    <div class="starter-template">
+        <form action="#" th:action="@{/post_insert}" method="post">
+            <p>
+                <input type="submit" name="submit" value="Submit" />
+            </p>
+            <p>
+                <textarea id="json" name="json" rows="28" cols="120" th:text="${newDocJson}"></textarea>
+            </p>
+        </form>
+    </div>
+
+</div>
+
+<div th:include="_footer::footer"></div>
+
+</body>
+</html>

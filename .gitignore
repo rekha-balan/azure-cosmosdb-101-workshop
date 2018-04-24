@@ -1,0 +1,47 @@
+
+# nodejs directory
+nodejs/node_modules/
+nodejs/tmp/
+
+# python directory
+python/bin/
+python/lib/
+python/pip-selfcheck.json
+python/pyvenv.cfg
+**/__pycache__/
+
+# java directories
+target/
+
+# intellij files and directories
+.idea/
+cosmos.iml
+src/main/main.iml
+src/test/test.iml
+**/*.iml
+
+# other directories
+tmp/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
