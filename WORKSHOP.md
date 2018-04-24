@@ -14,3 +14,9 @@ Intro to CosmosDB and Azure, with Java, Python, and Node.js
 ## [CosmosDB with Python](PYTHON.md) - Perf Testing, DSVM, Spatial Queries
 ## [CosmosDB with Azure Functions](FUNCTIONS.md) - Event-driven code
 ## [CosmosDB with Graph Data](GRAPH.md) - Six Degrees of Kevin Bacon
+
+# Related Repositories
+
+## [azure-cosmosdb-perf](https://github.com/cjoakim/azure-cosmosdb-perf) - Python-based Performance Testing
+## [azure-cosmosdb-graph](https://github.com/cjoakim/azure-cosmosdb-graph) - Six Degrees of Kevin Bacon
+## [azure-azdoc](https://github.com/cjoakim/azure-azdoc) - Download Azure PDF Documentation
