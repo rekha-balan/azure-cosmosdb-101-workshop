@@ -21,7 +21,19 @@
 [main.py](https://github.com/cjoakim/azure-cosmosdb-perf/blob/master/main.py)
 [cosmos.py](https://github.com/cjoakim/azure-cosmosdb-perf/blob/master/src/joakim/cosmos.py)
 
+## Create the perf collection
+
+- dev database
+- partition key "/partition_key"
+- 10000 RUs
+
 ## Load the Database Collection
+
+Create and activate the Anaconda virtual environment:
+```
+./conda_env.sh
+source activate perf
+```
 
 ```
 python main.py load_db 0.1 > tmp/load_db.txt
